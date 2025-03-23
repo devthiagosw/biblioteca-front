@@ -12,6 +12,7 @@ import { TurmasFormComponent } from './components/turma/turmas-form/turmas-form.
 
 export const routes: Routes = [
     { path: "login", component: LoginComponent },
+    { path: "", redirectTo: "login", pathMatch: "full" },
     {
       path: "admin",
       component: PrincipalComponent,
